@@ -6,6 +6,7 @@ namespace Övning1
     {
         static void Main(string[] args)
         {
+            //detta är första kunden för banken
             kunder k1 = new kunder();
 
             k1.namn = "Janne";
@@ -19,7 +20,8 @@ namespace Övning1
     }
     public class kunder
     {
-       public string namn;
+        //detta är en klass som innehåller information om kunder
+        public string namn;
         public string adress;
         public string telefonnummer;
         public string email;
