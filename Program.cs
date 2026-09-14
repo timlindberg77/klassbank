@@ -15,6 +15,7 @@ namespace Övning1
             k1.personnummer = "123456-7890";
             k1.kundnummer = "K12345";
 
+            k1.run(); //anropar metoden run för kunder klassen  
             //första vip kunden för banken
             vip v1 = new vip();
             v1.namn = "Eva";
@@ -23,6 +24,8 @@ namespace Övning1
             v1.personnummer = "098765-4321";
             v1.kundnummer = "K54321";
             v1.vipnummer = "V12345";
+
+            v1.run();
         }
     }
     public class kunder
